@@ -15,6 +15,11 @@ body {
   border-radius: 5%;
   justify-content: center;
   align-items: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5%;
+  border: 1px solid green;
+  margin-top: 16px;
 }
 
 .container .img-background {
@@ -30,6 +35,12 @@ body {
 .container .img-background img {
   margin-left: 64px;
   margin-top: 64px;
+  border: 1px solid red;
+}
+
+.container .img-background img {
+  margin-inline: 64px;
+  margin-block: 64px;
 }
 
 .container .title-and-write {
